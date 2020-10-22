@@ -1,0 +1,3 @@
+spring:
+  profile: dev
+  cloud.function.scan.packages: com.fabriciolfj.github.functionexemplo.functions

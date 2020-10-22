@@ -30,3 +30,14 @@ consumer: localhost:8080/empresaConsumer POST
 supplier: localhost:8080/empresaSupplier GET 
 
 ```
+
+## Plugin
+Precisamos adicionar o plugin de nome shadowjar, que basicamente empacota todas as dependências na rota build/libs**.jar.
+Propriedades:
+- Classifier: o nome do pacote nome*-aws.jar por exemplo.
+- MergeServiceFiles: Agrupa todos os ficheiros com mesmo nome, em um nome só.
+
+## AWS Lambda
+- Ao criar uma função, edite as configurações básicas e no campo Manipulador, informe: com.fabriciolfj.github.functionexemplo.handler.EmpresaFunctionAWSHandler
+- Crie variável de ambiente, no caso: FUNCTION_NAME empresa (para usarmos apenas a function nesse exemplo).
+- Crie um evento de teste.

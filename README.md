@@ -13,3 +13,11 @@ Spring Cloud Function suporte 3 tipos de interfaces do java 8:
 - Function: Aceita um input e retorna um response.
 - Consumer: Aceita um input e não retorna nada.
 - Supplier: não aceita input e retorna uma resposta.
+
+## Exemplo de requisição:
+
+```
+{
+    "name": "Coca-cola"
+}
+```

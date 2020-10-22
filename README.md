@@ -30,3 +30,9 @@ consumer: localhost:8080/empresaConsumer POST
 supplier: localhost:8080/empresaSupplier GET 
 
 ```
+
+## Plugin
+Precisamos adicionar o plugin de nome shadowjar, que basicamente empacota todas as dependências na rota build/libs**.jar.
+Propriedades:
+- Classifier: o nome do pacote nome*-aws.jar por exemplo.
+- MergeServiceFiles: Agrupa todos os ficheiros com mesmo nome, em um nome só.

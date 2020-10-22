@@ -17,7 +17,16 @@ Spring Cloud Function suporte 3 tipos de interfaces do java 8:
 ## Exemplo de requisição:
 
 ```
+function: localhost:8080/empresa POST
 {
     "name": "Coca-cola"
 }
+
+consumer: localhost:8080/empresaConsumer POST
+{
+    "name": "Coca-cola"
+}
+
+supplier: localhost:8080/empresaSupplier GET 
+
 ```

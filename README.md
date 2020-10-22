@@ -39,3 +39,5 @@ Propriedades:
 
 ## AWS Lambda
 - Ao criar uma função, edite as configurações básicas e no campo Manipulador, informe: com.fabriciolfj.github.functionexemplo.handler.EmpresaFunctionAWSHandler
+- Crie variável de ambiente, no caso: FUNCTION_NAME empresa (para usarmos apenas a function nesse exemplo).
+- Crie um evento de teste.

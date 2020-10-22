@@ -36,3 +36,6 @@ Precisamos adicionar o plugin de nome shadowjar, que basicamente empacota todas 
 Propriedades:
 - Classifier: o nome do pacote nome*-aws.jar por exemplo.
 - MergeServiceFiles: Agrupa todos os ficheiros com mesmo nome, em um nome só.
+
+## AWS Lambda
+- Ao criar uma função, edite as configurações básicas e no campo Manipulador, informe: com.fabriciolfj.github.functionexemplo.handler.EmpresaFunctionAWSHandler
